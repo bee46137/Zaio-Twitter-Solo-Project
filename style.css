@@ -1,0 +1,18 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* LEFT NAV BAR */
+
+
+.nav-bar-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-icons {
+    display: flex;
+    flex-direction: column;
+    
+}
