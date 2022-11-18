@@ -5,15 +5,20 @@
 
 /* LEFT NAV BAR */
 
+body {
+    display: flex;
+    justify-content: space-around;
+   
+}
 
 .nav-bar-left {
    display: flex;
-   flex-direction: row;
-    flex-wrap: wrap;
+   flex-direction: column;
     
 }
 
 .nav-icon {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    /* color: white; */
 }
