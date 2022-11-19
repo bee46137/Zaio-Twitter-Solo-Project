@@ -7,8 +7,9 @@
 
 body {
     display: flex;
-    justify-content: space-around;
-   
+    justify-content: center;
+    background-color: black;
+    color: white;
 }
 
 .nav-bar-left {
@@ -20,5 +21,39 @@ body {
 .nav-icon {
     display: flex;
     flex-direction: row;
-    /* color: white; */
+    height: 39px;
+    width: 27px;
+    padding: 12px;
+    font-size: 19px;
+}
+
+
+.nav-icon-list {
+    width: 263px;
+    padding: 0 12px;
+}
+
+.nav-icon{
+  
+    
+}
+
+.nav-icon i{
+    margin-right: 30px;
+    height: 100%;
+    width: 100%;
+}
+
+/* Feed section */
+
+.feed {
+    width: 582px;
+    padding: 16px;
+}
+
+
+/* Right nav bar */
+
+.right-nav-bar {
+    width: 408px;
 }
