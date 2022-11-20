@@ -17,7 +17,7 @@ body {
    display: flex;
    flex-direction: column;
    padding: 0px 12px;
-    
+    position: static;
 }
 
 .nav-icon {
@@ -42,8 +42,7 @@ body {
 
 .nav-icon i{
     margin-right: 30px;
-    /* height: 5em;
-    width: 5em; */
+
 }
 
 .nav-bar-left button {
