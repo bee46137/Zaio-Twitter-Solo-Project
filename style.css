@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 
@@ -15,6 +16,7 @@ body {
 .nav-bar-left {
    display: flex;
    flex-direction: column;
+   padding: 0px 12px;
     
 }
 
@@ -23,37 +25,69 @@ body {
     flex-direction: row;
     height: 39px;
     width: 27px;
-    padding: 12px;
+    margin: 12px;
     font-size: 19px;
 }
 
 
 .nav-icon-list {
     width: 263px;
-    padding: 0 12px;
+    margin: 0 12px;
 }
 
 .nav-icon{
-  
+  padding-top: 4px;
     
 }
 
 .nav-icon i{
     margin-right: 30px;
-    height: 100%;
-    width: 100%;
+    /* height: 5em;
+    width: 5em; */
 }
+
+.nav-bar-left button {
+    background-color: rgb(29 155 240);
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    margin: 12px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.profile-section {
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+
+.profile-icon {
+    margin: 0 20px;
+    align-items: center;
+    justify-content: center;
+}
+
 
 /* Feed section */
 
 .feed {
+    height: 100vh;
     width: 582px;
     padding: 16px;
+    border-right: 1px solid rgb(47 51 54);
+    border-left: 1px solid rgb(47 51 54);
 }
+
+.your-tweet {
+    border-bottom: 1px solid rgb(47 51 54);
+}
+
 
 
 /* Right nav bar */
 
-.right-nav-bar {
+.nav-bar-right {
     width: 408px;
 }
