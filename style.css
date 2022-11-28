@@ -34,7 +34,6 @@ body {
     font-size: 19px;
 }
 
-
 .nav-icon-list {
     width: 263px;
     margin: 0 12px;
@@ -86,7 +85,9 @@ body {
     border-radius: 50%;
     
 }
-
+.bi {
+    font-size: 20px;
+}
 
 /* Feed section */
 
