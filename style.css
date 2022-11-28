@@ -86,7 +86,7 @@ body {
     
 }
 .bi {
-    font-size: 20px;
+    font-size: 25px;
 }
 
 /* Feed section */
@@ -135,6 +135,10 @@ body {
     padding-top: 4px;
     font-size: 20px;
     color: rgb(105 109 114);
+}
+
+.pf {
+    font-size: 16px;
 }
 
 .icon-list {
