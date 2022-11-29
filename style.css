@@ -80,11 +80,11 @@ body {
 }
 
 .profile-icon img {
-    height: 48px;
-    width: 48px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
-    
 }
+
 .bi {
     font-size: 25px;
 }
@@ -180,9 +180,19 @@ body {
     border-bottom: 1px solid rgb(47 51 54);
 }
 
+.tweet {
+    display: flex;
+    padding: 0 16px;
+}
+
+.account-picture img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
 
 /* Right nav bar */
 
 .nav-bar-right {
     width: 408px;
-}
+} 
