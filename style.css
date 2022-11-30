@@ -4,8 +4,39 @@
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
     margin: 0;
+    font-size: 15px;
 }
 
+/* FONTS */
+
+.nb {
+    font-size: 25px;
+}
+
+.profile-pic span {
+    font-size: 20px;
+}
+
+.pf {
+    font-size: 16px;
+}
+
+.icon-list button {
+    font-weight: 500;
+}
+
+.nav-icon {
+    font-size: 19px;
+}
+
+.nav-bar-left button {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.text {
+    font-size: 13px;
+}
 
 /* LEFT NAV BAR */
 
@@ -20,8 +51,8 @@ body {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-   /* padding: 0px 12px; */
-    position: static;
+    position: ;
+    height: 100vh;
 
 }
 
@@ -31,7 +62,6 @@ body {
     height: 39px;
     width: 27px;
     margin: 12px;
-    font-size: 19px;
 }
 
 .nav-icon-list {
@@ -57,8 +87,7 @@ body {
     border: none;
     margin: 12px;
     color: white;
-    font-size: 20px;
-    font-weight: 600;
+   
 }
 
 .profile-section {
@@ -66,6 +95,7 @@ body {
     flex-direction: row;
     margin-top: 30px;
     padding: 12px;
+    width: 100%;
 }
 
 .profile-icon {
@@ -75,9 +105,6 @@ body {
     
 }
 
-.account-name {
-    font-size: 13px;
-}
 
 .profile-icon img {
     height: 40px;
@@ -85,22 +112,17 @@ body {
     border-radius: 50%;
 }
 
-.bi {
-    font-size: 25px;
-}
 
 /* Feed section */
 
 .feed {
     height: 100vh;
     width: 582px;
-    /* padding: 0 16px; */
     border-right: 1px solid rgb(47 51 54);
     border-left: 1px solid rgb(47 51 54);
 }
 
 .your-tweet {
-    /* padding-bottom: 20px; */
     padding: 0 12px 20px 12px;
     border-bottom: 1px solid rgb(47 51 54);
 }
@@ -133,13 +155,9 @@ body {
     display: flex;
     align-items: center;
     padding-top: 4px;
-    font-size: 20px;
     color: rgb(105 109 114);
 }
 
-.pf {
-    font-size: 16px;
-}
 
 .icon-list {
     padding-left: 62px;
@@ -152,7 +170,6 @@ body {
 }
 
 .icon-list .icons i{
-    /* display: flex; */
     color: rgb(29 155 240);
     height: 34px;
     width: 34px;
@@ -162,7 +179,6 @@ body {
 .icon-list button {
     background-color: rgb(29 155 240);
     color: white;
-    font-weight: 500;
     border: none;
     height: 34px;
     width: 68px;
@@ -175,14 +191,40 @@ body {
     align-items: center;
     justify-content: center;
     height: 50px;
-    font-size: 15px;
+    
     color: rgb(29 155 240);
     border-bottom: 1px solid rgb(47 51 54);
 }
 
 .tweet {
     display: flex;
-    padding: 0 16px;
+    padding: 12px 16px;
+    border-bottom: 1px solid rgb(47 51 54);
+}
+
+
+.account-picture {
+    margin-right: 12px;
+}
+
+.account-name {
+    display: flex;
+    justify-content: space-between;
+    width: 110%;
+}
+
+.left-icons {
+    display: flex;
+    justify-content: left;
+}
+
+.right-icons {
+    display: flex;
+    justify-content: right;
+}
+
+.account-name span {
+    padding-right: 3px;
 }
 
 .account-picture img {
@@ -190,6 +232,23 @@ body {
     height: 48px;
     border-radius: 50%;
 }
+
+.account-title {
+    margin: 5px 0;
+    color: #71767b;
+}
+
+.tweet-icon-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+    color: #71767b;
+}
+
+.grey {
+    color: #71767b;
+}
+
 
 /* Right nav bar */
 
