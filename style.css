@@ -38,6 +38,23 @@
     font-size: 13px;
 }
 
+h1 {
+    font-size: 20px;
+}
+
+.topic span {
+    font-size: 13px;
+    color: #696e72;
+}
+
+.topic p {
+    font-size: 13px;
+    color: #696e72;
+}
+
+.button-div button {
+    font-size: 14px;
+}
 
 /* LEFT NAV BAR */
 
@@ -266,6 +283,86 @@ body {
 /* RIGHT NAV BAR */
 
 .nav-bar-right {
-    margin-left: 20px;
-    width: 408px;
+    margin-left: 30px;
+    width: 348px;
 } 
+
+.search-bar {
+    padding: 0px 16px;
+    background-color:rgb(32 35 39);
+    margin: 12px 0px 20px 0;
+}
+
+.search-bar input {
+    padding: 12px;
+    background-color: rgb(32 35 39);
+    border: none;
+}
+
+.heading {
+    padding: 12px 16px;
+    background-color: #16181c;
+}
+
+.topic {
+    padding: 12px 16px;
+}
+
+.show-more-trending {
+    padding: 12px 16px;
+    background-color: #16181c;
+    color: rgb(29 155 240);
+}
+
+.top-line {
+    display: flex;
+    justify-content: space-between;
+}
+
+.trending-topics {
+    background-color: #16181c;
+}
+
+.trending {
+    margin-bottom: 12px;
+}
+
+/* WHO TO FOLLOW SECTION */
+
+.follow-account {
+    background-color: #16181c;
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.follow-account-pic img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    margin-right: 15px;
+
+}
+
+.follow-account-excl {
+    display: flex;
+}
+
+.follow-account-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.button-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-div button {
+    padding: 4px 16px;
+    border: none;
+    border-radius: 50%;
+}
