@@ -263,8 +263,9 @@ body {
 }
 
 
-/* Right nav bar */
+/* RIGHT NAV BAR */
 
 .nav-bar-right {
+    margin-left: 20px;
     width: 408px;
 } 
