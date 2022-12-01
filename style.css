@@ -397,3 +397,103 @@ body {
     padding-right: 12px;
     margin-bottom: 5px;
 }
+
+/* HOVER SECTION */
+/* LEFT NAV BAR */
+
+.nav-bar-left .nav-icon:hover {
+    border-radius: 50%;
+    background-color: #16181c;
+}
+
+
+/* FEED SECTION */
+
+.home-header i:hover{
+    background-color: #16181c;
+}
+
+.tweet:hover{
+    background-color: #0c0b0b;
+    cursor: pointer;
+}
+
+.tweet-info .icon-list i:hover {
+    background-color:  #43516c;
+}
+
+.tweet-account-title:hover {
+    text-decoration: underline;
+}
+
+.time:hover {
+    text-decoration: underline;
+}
+
+.feed .bi-three-dots:hover {
+    color:  rgb(29 155 240);
+    background-color: #43516c;
+    cursor: pointer;
+}
+
+/* REPLY BUTTON */
+.bi-chat:hover {
+    color:  rgb(29 155 240);
+    background-color: #43516c;
+}
+
+
+/* REPOST BUTTON */
+
+.bi-arrow-repeat:hover {
+    color: #00ba7c;
+    background-color: #80b3a2;
+}
+
+/* LIKE BUTTON */
+
+
+.bi-heart:hover {
+    color: #f91880;
+    background-color: #f29bc3;
+}
+
+/* SHARE BUTTON */
+
+.bi-upload:hover{
+    color:  rgb(29 155 240);
+    background-color: #43516c;
+}
+
+/* RIGHT NAV BAR */
+
+.topic:hover {
+    background-color: #202327;
+    cursor: pointer;
+}
+
+.topic i:hover {
+    color:  rgb(29 155 240);
+    background-color: #43516c;
+    cursor: pointer;
+}
+
+.show-more-trending:hover {
+    background-color: #202327;
+    cursor: pointer;
+}
+
+.follow-account:hover {
+    background-color: #202327;
+    cursor: pointer;
+}
+
+.follow-account button:hover{
+    background-color: #c0c0c1;
+    cursor: pointer;
+}
+
+.show-more-accounts:hover {
+    background-color: #202327;
+    cursor: pointer;
+}
