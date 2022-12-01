@@ -51,8 +51,8 @@ body {
    display: flex;
    flex-direction: column;
    justify-content: space-between;
-    position: ;
-    height: 100vh;
+   /* overflow: hidden; */
+   height: 100vh;
 
 }
 
@@ -116,7 +116,6 @@ body {
 /* Feed section */
 
 .feed {
-    height: 100vh;
     width: 582px;
     border-right: 1px solid rgb(47 51 54);
     border-left: 1px solid rgb(47 51 54);
@@ -137,7 +136,7 @@ body {
 
 .home-header i {
     color: white;
-    position: sticky;
+    /* position: sticky; */
 }
 
 .tweet-info {
@@ -211,6 +210,7 @@ body {
     display: flex;
     justify-content: space-between;
     width: 110%;
+    margin-bottom: 10px;
 }
 
 .left-icons {
@@ -247,6 +247,18 @@ body {
 
 .grey {
     color: #71767b;
+}
+
+.img-tweet img{
+    width: 450px;
+    height: 450px;
+}
+
+.img-tweet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
 }
 
 
