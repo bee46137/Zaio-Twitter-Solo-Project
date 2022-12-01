@@ -38,6 +38,7 @@
     font-size: 13px;
 }
 
+
 /* LEFT NAV BAR */
 
 body {
@@ -113,7 +114,7 @@ body {
 }
 
 
-/* Feed section */
+/* FEED SECTION */
 
 .feed {
     width: 582px;
@@ -209,7 +210,7 @@ body {
 .account-name {
     display: flex;
     justify-content: space-between;
-    width: 110%;
+    width: 488px;
     margin-bottom: 10px;
 }
 
